@@ -16,9 +16,8 @@ def oxford_comma(array)
         end
       end
   end
-  binding.pry
   return new_string
 end
 
-sample_array = ["one","two","three"]
-oxford_comma(sample_array)
+#sample_array = ["one","two","three"]
+#oxford_comma(sample_array)
