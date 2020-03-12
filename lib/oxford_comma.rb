@@ -8,6 +8,7 @@ def oxford_comma(array)
   when 2
     return new_string << "#{array[0]} and #{array[1]}"
   else
+    binding.pry
     array.each do |element|
       if array.first
         new_string << element   #if first, shovel onto new_string
