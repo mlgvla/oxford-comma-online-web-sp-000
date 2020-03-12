@@ -9,13 +9,12 @@ def oxford_comma(array)
     return new_string << "#{array[0]} and #{array[1]}"
   else
     array.each do |element|
-      binding.pry
       if array.first
         new_string << element   #if first, shovel onto new_string
+binding.pry
       elsif array.last
         new_string << ", and " << element   #elsif last, shovel ", and  " then shovel elemnent
       else
-        binding.pry
         new_string << ", " << element     #else in between, shovel ", " then shovel element
       end
     end
