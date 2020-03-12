@@ -20,4 +20,3 @@ end
 
 sample_array = ["one","two","three"]
 oxford_comma(sample_array)
-
