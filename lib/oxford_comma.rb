@@ -13,7 +13,8 @@ def oxford_comma(array)
           new_string << "and "<< element
         else
           new_string << element << ", "
-        end    }
+        end
+    }
   end
   binding.pry
   return new_string
