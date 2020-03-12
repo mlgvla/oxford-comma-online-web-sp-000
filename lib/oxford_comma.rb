@@ -15,6 +15,7 @@ def oxford_comma(array)
           new_string << element << ", "
         end    }
   end
+  binding.pry
   return new_string
 end
 
