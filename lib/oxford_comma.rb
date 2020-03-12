@@ -8,13 +8,13 @@ def oxford_comma(array)
   when 2
     return new_string << "#{array[0]} and #{array[1]}"
   else
-    array.each do {|element|
+    array.each do |element|
         if array[array.length - 1] == element
           new_string << "and "<< element
         else
           new_string << element << ", "
         end
-    }
+      end
   end
   binding.pry
   return new_string
